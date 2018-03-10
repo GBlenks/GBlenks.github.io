@@ -18,7 +18,7 @@
     z-index: 4;
 }
 .textmain {
-    background-image:url(main%20body%20back.png);
+    background-image:url(mainbodyback.png);
     background-size: cover;
     z-index: 1;
     top: 20vw;
