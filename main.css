@@ -1,0 +1,326 @@
+.mainbackground {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+.titlebar {
+    position: fixed;
+    top: -3vw;
+    left: 0px;
+    font-size: 4vw;
+    width: 100%;
+    text-align: center;
+    font-family: "Arial";
+
+    padding: 2vw 0;
+    z-index: 40;
+}
+.textmain {
+    background-image:url(testing/main%20body%20back.png);
+    background-size: cover;
+    background
+    z-index: 1;
+    top: 20vw;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 90%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+}
+
+body {
+    background-color: rgb(34, 177, 76)
+}
+.titlecontact {
+    font-size: 3.2vw;
+    color: ;
+    width: 35%;
+    background-color: rgba(34, 240, 76, 0.8);
+    box-shadow: 0 1.4vw #333333;
+    border-radius: 8px;
+    border: none;
+    z-index: 5;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.titlecontact:hover {
+    background-color: rgba(20, 255, 50, 1);
+}
+.titlecontact:active {
+    box-shadow: 0 0.7vw black;
+    transform: translateY(0.7vw)
+}
+.cutnedge {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    width: 100%;
+    top: 4vw;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8vw;
+    color: rgba(34, 200, 76, 1);
+    text-shadow: 1vw 1.5vw black;
+    animation-name: shadowlarge;
+    animation-duration: 2s;
+}
+.services {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    width: 100%;
+    top: 15vw;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vw;
+    color: rgba(34, 200, 76, 1);
+    text-shadow: 0.5vw 1vw black;
+    animation-name: shadowsmall;
+    animation-duration: 1s;
+}
+.contactform {
+    z-index: 5;
+    position: absolute;
+    top: 130vw;
+    left: 20vw;
+    background-color: rgb(34, 177, 76);
+    z-index: 10;
+    font-size: 1vw;
+    
+}
+input, textarea {
+    font-size: 2.5vw;
+    font-family: "Arial";
+    height: 4vw;
+    border-radius: 8px;
+    width: 60vw;
+    
+}
+textarea {
+    resize: none;
+    height: 15vw;;
+}
+.subbut {
+    font-size: 3vw;
+    height: 5vw;
+    color: black;
+    background-color: rgba(34, 240, 76, 0.8);
+    box-shadow: 0 10px #333333;
+    border: none;
+    border-radius: 8px;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
+.subbut:hover {
+    background-color: rgba(20, 255, 50, 1);
+}
+.subbut:active {
+    box-shadow: 0 5px black;
+    transform: translateY(5px)
+}
+
+.text1  {
+    position: absolute;
+    top: 22vw;
+    width: 45vw;
+}
+.text2 {
+    position: absolute;
+    top: 52vw;
+    width: 45vw;
+    right: 0;
+}
+.text3 {
+    position: absolute;
+    top:92vw;
+    width: 45vw;
+}
+.text1,.text2,.text3 {
+    padding: 0 6vw;
+}
+.whatwedo {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4vw;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    top: 31vw;
+    color: black;
+}
+
+
+@keyframes shadowlarge {
+    from {text-shadow: 0 0 black; transform: translate(1vw, 1.5vw);}
+    to {text-shadow: 1vw 1.5vw black; transform: translate(0, 0);}
+}
+@keyframes shadowsmall {
+    from {text-shadow: 0 0 black; transform: translate(0.5vw, 0.75vw);}
+    to {text-shadow: 0.5vw 0.75vw black; transform: translate(0, 0);}
+}
+
+.line1 {
+    width: 25vw;
+    z-index: 3;
+    position: absolute;
+    height: 0.8vw;
+    top: 10vw;
+    right: 48vw;
+    animation-name: line1ani;
+    animation-duration: 2s;
+}
+@keyframes line1ani {
+    from {width: 0vw;
+    right: 48vw;}
+    to {width: 25%; right: 48vw;}
+}
+.line2 {
+    width: 25vw;
+    z-index: 3;
+    position: absolute;
+    height: 0.8vw;
+    top: 10vw;
+    left: 48vw;
+    animation-name: line2ani;
+    animation-duration: 2s;
+}
+@keyframes line2ani {
+    from {width: 0vw;
+    left: 48vw;}
+    to {width: 25%; left: 48vw;}
+}
+.line3 {
+    width: 12vw;
+    z-index: 3;
+    position: absolute;
+    height: 0.7vw;
+    top:36vw;
+    left: 63vw;
+    animation-name: line3ani;
+    animation-duration: 2s;
+}
+@keyframes line3ani {
+    from {width: 0vw;
+    left: 63vw;}
+    to {width: 12vw; left: 63vw;}
+}
+.line4 {
+    width: 12vw;
+    z-index: 3;
+    position: absolute;
+    height: 0.7vw;
+    top:36vw;
+    right: 63vw;
+    animation-name: line4ani;
+    animation-duration: 2s;
+}
+@keyframes line4ani {
+    from {width: 0vw;
+    right: 63vw;}
+    to {width: 12vw; right: 63vw;}
+}
+.line5 {
+    width: 10vw;
+    z-index: 3;
+    position: absolute;
+    height: 0.8vw;
+    top: 21.5vw;
+    left: 63vw;
+    animation-name: line5ani;
+    animation-duration: 0.8s;
+}
+@keyframes line5ani {
+    from {width: 0vw;
+    left: 63vw;}
+    to {width: 10vw; left: 63vw;}
+}
+.line6 {
+    width: 10vw;
+    z-index: 3;
+    position: absolute;
+    height: 0.8vw;
+    top: 21.5vw;
+    right: 63vw;
+    animation-name: line6ani;
+    animation-duration: 0.8s;
+}
+@keyframes line6ani {
+    from {width: 0vw;
+    right: 63vw;}
+    to {width: 10vw; right: 63vw;}
+}
+.image1 {
+    position: absolute;
+    z-index: 5;
+    width: 30vw;
+    top: 42vw;
+    right: 10vw;
+    border: 0.3vw solid black;
+    border-color: black;
+}
+.image2 {
+    position: absolute;
+    z-index: 5;
+    width: 30vw;
+    top: 76vw;
+    left: 10vw;
+    border: 0.3vw solid black;
+    border-color: black;
+}
+.image3 {
+    position: absolute;
+    z-index: 5;
+    width: 30vw;
+    top: 114vw;
+    right: 10vw;
+    border: 0.3vw solid black;
+    border-color: black;
+}
+.line7 {
+    width: 25vw;
+    z-index: 3;
+    position: absolute;
+    height: 0.8vw;
+    top: 67vw;
+    right: 48vw;
+    animation-name: line1ani;
+    animation-duration: 2s;
+}
+.line8 {
+    width: 25vw;
+    z-index: 3;
+    position: absolute;
+    height: 0.8vw;
+    top: 67vw;
+    left: 48vw;
+    animation-name: line2ani;
+    animation-duration: 2s;
+}
+.line9 {
+    width: 25vw;
+    z-index: 3;
+    position: absolute;
+    height: 0.8vw;
+    top: 105vw;
+    right: 48vw;
+    animation-name: line1ani;
+    animation-duration: 2s;
+}
+.line10 {
+    width: 25vw;
+    z-index: 3;
+    position: absolute;
+    height: 0.8vw;
+    top: 105vw;
+    left: 48vw;
+    animation-name: line2ani;
+    animation-duration: 2s;
+}
+
+
+
+
